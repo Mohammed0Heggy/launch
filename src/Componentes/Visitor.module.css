@@ -1,0 +1,33 @@
+.container::before {
+  content: "";
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  top: -19px;
+  right: calc(50% - 10px);
+}
+.container {
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 285px;
+  box-shadow: 0.05px 0.05px 10px 0.1px #eee;
+}
+.child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  border-right: 3px solid transparent;
+}
+.child:hover {
+  color: #7fd3df;
+  border-right-color: #7fd3df;
+  border-radius: 2px;
+}

@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  padding: 20px;
+}
+.container .row {
+  display: flex;
+}
+.text h3{
+  margin: 10px;
+  font-size: larger;
+}
+.text p {
+  color: var(--secondary-text);
+  font-size: medium;
+}
+.icons {
+  color: var(--main-color);
+  min-width: 40px;
+  min-height: 40px;
+  margin: 10px;
+  /* border: 1px solid var(--secondary-text);
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: xx-large;
+  margin: 10px; */
+}
