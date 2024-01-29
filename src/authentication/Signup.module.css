@@ -120,7 +120,7 @@
 }
 .secondHalf button {
   position: absolute;
-  left: 0;
+  left: 0px;
   border-radius: 0 80px 80px 0;
   padding: 10px;
   border: none;
@@ -128,7 +128,6 @@
 }
 .FBtn {
   top: 46.6%;
-  left: 0;
   width: 125px;
   background-color: #fff;
 }

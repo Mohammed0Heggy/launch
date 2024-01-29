@@ -137,7 +137,6 @@ export const Signup = () => {
             <button className={signup.signupBtn} type="submit">
               انشاء حساب
             </button>
-            <Link>هل نسيت كلمة المرور؟</Link>
           </div>
           <p className={signup.p}>او سجل الدخول عبر:</p>
           <div className={signup.socialMediaIcons}>
