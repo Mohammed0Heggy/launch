@@ -128,11 +128,13 @@
 }
 .FBtn {
   top: 46.6%;
+  left: 0;
   width: 125px;
   background-color: #fff;
 }
 .LBtn {
   top: 53.4%;
+  left: 0;
   width: 125px;
   background-color: #7fd3df;
   color: #fff;
